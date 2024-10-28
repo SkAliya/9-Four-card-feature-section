@@ -28,7 +28,7 @@ This is a solution to the [huddle-landing-page-with-a-single-introductory-sectio
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Four-card-feature-section-solution| Frontend Mentor](https://www.frontendmentor.io/solutions/simple-huddle-landing-pagehtml5css3sass-LSlaaEg_-A)
+- Solution URL: [Four-card-feature-section-solution| Frontend Mentor](https://www.frontendmentor.io/solutions/beautiful-4-cards-section-built-with-just-using-html5-and-css3-X3uWFRcPi2)
 - Live Site URL: [https://skaliya.github.io/9-Four-card-feature-section/](https://skaliya.github.io/9-Four-card-feature-section/)
 
 <br>
