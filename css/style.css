@@ -49,7 +49,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6rem;
+  gap: 4rem;
   margin: 8rem auto;
 }
 @media only screen and (max-width: 37.5em) {
@@ -94,7 +94,6 @@ body {
 .primary-heading--2 {
   font-size: 4rem;
   font-weight: 600;
-  /* MEDIA-QUERY */
 }
 @media only screen and (max-width: 43.75em) {
   .primary-heading--2 {
@@ -105,7 +104,6 @@ body {
   color: var(--color-text);
   width: 60%;
   margin: 1.5rem auto;
-  /* MEDIA-QUERY */
 }
 @media only screen and (max-width: 43.75em) {
   .primary-heading--text {
@@ -115,13 +113,18 @@ body {
 
 /* GRID CONTAINER */
 .container {
-  max-width: 110rem;
+  max-width: 130rem;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
   align-items: center;
   /* MEDIA-QUERY */
+}
+@media only screen and (max-width: 81.25em) {
+  .container {
+    margin: 0 4rem;
+  }
 }
 @media only screen and (max-width: 43.75em) {
   .container {
@@ -153,7 +156,6 @@ body {
 .card__1 {
   grid-area: 1/1/-1/2;
   border-top: 0.5rem solid var(--color-card1);
-  /* MEDIA-QUERY */
 }
 @media only screen and (max-width: 43.75em) {
   .card__1 {
@@ -163,7 +165,6 @@ body {
 .card__2 {
   grid-area: 1/2/2/3;
   border-top: 0.5rem solid var(--color-card2);
-  /* MEDIA-QUERY */
 }
 @media only screen and (max-width: 43.75em) {
   .card__2 {
@@ -173,7 +174,6 @@ body {
 .card__3 {
   grid-area: 2/2/-1/3;
   border-top: 0.5rem solid var(--color-card3);
-  /* MEDIA-QUERY */
 }
 @media only screen and (max-width: 43.75em) {
   .card__3 {
@@ -183,7 +183,6 @@ body {
 .card__4 {
   grid-area: 1/3/-1/-1;
   border-top: 0.5rem solid var(--color-card4);
-  /* MEDIA-QUERY */
 }
 @media only screen and (max-width: 43.75em) {
   .card__4 {
